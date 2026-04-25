@@ -22,13 +22,13 @@ pytest test_project.py -v
 
 #### Files
 
-- project.py — Main application. Handles user interaction, displays
+- project.py: Main application. Handles user interaction, displays
   the catalog, and prints ranked recommendations with match explanations.
-- helpers.py — Recommendation engine. Loads data, builds feature
+- helpers.py: Recommendation engine. Loads data, builds feature
   vectors, computes cosine similarity, and returns ranked results.
-- data.json — Database of 18 books and movies, each tagged with
+- data.json: Database of 18 books and movies, each tagged with
   genres, themes, tone, mood, pace, and complexity.
-- test_project.py — Test suite with 17 tests covering data loading,
+- test_project.py: Test suite with 17 tests covering data loading,
   similarity math, search, recommendations, and feature vectors.
-- requirements.txt — Python package dependencies.
+- requirements.txt: Python package dependencies.
 
