@@ -1,0 +1,200 @@
+[
+  {
+    "title": "1984",
+    "type": "book",
+    "author": "George Orwell",
+    "genres": ["dystopian", "science fiction"],
+    "themes": ["surveillance", "freedom", "totalitarianism"],
+    "tone": ["dark", "tense"],
+    "mood": "oppressive",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "type": "book",
+    "author": "Margaret Atwood",
+    "genres": ["dystopian", "science fiction"],
+    "themes": ["freedom", "totalitarianism", "gender"],
+    "tone": ["dark", "unsettling"],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Great Gatsby",
+    "type": "book",
+    "author": "F. Scott Fitzgerald",
+    "genres": ["literary fiction", "classic"],
+    "themes": ["wealth", "love", "American dream"],
+    "tone": ["melancholic", "elegant"],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "type": "book",
+    "author": "Harper Lee",
+    "genres": ["literary fiction", "classic"],
+    "themes": ["justice", "racism", "innocence"],
+    "tone": ["warm", "earnest"],
+    "mood": "hopeful",
+    "pace": "slow",
+    "complexity": "easy"
+  },
+  {
+    "title": "Brave New World",
+    "type": "book",
+    "author": "Aldous Huxley",
+    "genres": ["dystopian", "science fiction"],
+    "themes": ["freedom", "conformity", "technology"],
+    "tone": ["satirical", "unsettling"],
+    "mood": "disturbing",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Hobbit",
+    "type": "book",
+    "author": "J.R.R. Tolkien",
+    "genres": ["fantasy", "adventure"],
+    "themes": ["courage", "friendship", "home"],
+    "tone": ["warm", "whimsical"],
+    "mood": "charming",
+    "pace": "moderate",
+    "complexity": "easy"
+  },
+  {
+    "title": "Gone Girl",
+    "type": "book",
+    "author": "Gillian Flynn",
+    "genres": ["thriller", "mystery"],
+    "themes": ["deception", "marriage", "identity"],
+    "tone": ["dark", "suspenseful"],
+    "mood": "unsettling",
+    "pace": "fast",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Dune",
+    "type": "book",
+    "author": "Frank Herbert",
+    "genres": ["science fiction", "adventure"],
+    "themes": ["power", "ecology", "destiny"],
+    "tone": ["epic", "philosophical"],
+    "mood": "grand",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "type": "book",
+    "author": "Jane Austen",
+    "genres": ["romance", "classic"],
+    "themes": ["love", "class", "personal growth"],
+    "tone": ["witty", "warm"],
+    "mood": "charming",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Inception",
+    "type": "movie",
+    "author": "Christopher Nolan",
+    "genres": ["science fiction", "thriller"],
+    "themes": ["dreams", "reality", "guilt"],
+    "tone": ["cerebral", "intense"],
+    "mood": "mind-bending",
+    "pace": "fast",
+    "complexity": "complex"
+  },
+  {
+    "title": "Parasite",
+    "type": "movie",
+    "author": "Bong Joon-ho",
+    "genres": ["thriller", "drama"],
+    "themes": ["class", "wealth", "deception"],
+    "tone": ["dark", "tense"],
+    "mood": "unsettling",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Matrix",
+    "type": "movie",
+    "author": "The Wachowskis",
+    "genres": ["science fiction", "action"],
+    "themes": ["reality", "freedom", "identity"],
+    "tone": ["intense", "philosophical"],
+    "mood": "mind-bending",
+    "pace": "fast",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Spirited Away",
+    "type": "movie",
+    "author": "Hayao Miyazaki",
+    "genres": ["fantasy", "animation"],
+    "themes": ["courage", "identity", "growing up"],
+    "tone": ["whimsical", "mystical"],
+    "mood": "enchanting",
+    "pace": "moderate",
+    "complexity": "easy"
+  },
+  {
+    "title": "Interstellar",
+    "type": "movie",
+    "author": "Christopher Nolan",
+    "genres": ["science fiction", "drama"],
+    "themes": ["love", "survival", "time"],
+    "tone": ["epic", "emotional"],
+    "mood": "awe-inspiring",
+    "pace": "moderate",
+    "complexity": "complex"
+  },
+  {
+    "title": "Get Out",
+    "type": "movie",
+    "author": "Jordan Peele",
+    "genres": ["horror", "thriller"],
+    "themes": ["racism", "identity", "deception"],
+    "tone": ["tense", "satirical"],
+    "mood": "disturbing",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "type": "movie",
+    "author": "Frank Darabont",
+    "genres": ["drama", "classic"],
+    "themes": ["hope", "freedom", "friendship"],
+    "tone": ["warm", "inspiring"],
+    "mood": "hopeful",
+    "pace": "slow",
+    "complexity": "easy"
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "type": "movie",
+    "author": "The Daniels",
+    "genres": ["science fiction", "comedy", "drama"],
+    "themes": ["family", "identity", "love"],
+    "tone": ["chaotic", "emotional"],
+    "mood": "uplifting",
+    "pace": "fast",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "type": "movie",
+    "author": "Peter Jackson",
+    "genres": ["fantasy", "adventure"],
+    "themes": ["friendship", "courage", "good vs evil"],
+    "tone": ["epic", "warm"],
+    "mood": "grand",
+    "pace": "moderate",
+    "complexity": "moderate"
+  }
+]
