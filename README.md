@@ -1,7 +1,8 @@
 # content-recommender
 ### Narrative-Based Content Recommendation System
 
-#### Video Demo: ruby to add url herel.
+#### Video Demo: https://us06web.zoom.us/rec/share/tDo8rcCsdJkUo1bcItZAHxl3Pd6hHb94U3UNbyqTBKLRzRakeXZ-FWsgIvkombHO.scdP6mq4LyvfLm4A 
+Passcode: NBU5gwf&
 
 #### Description:
 
