@@ -29,6 +29,9 @@ def main():
     if not results:
         print("  No recommendations found.")
     else:
+        LOW_SCORE_THRESHOLD = 0.15
+        best_score = results[0][1]
+        if best_score < LOW_SCORE_THRESHOLD:
         for rank, (item, score) in enumerate(results, 1):
             pct = round(score * 100)
             print(f"\n  #{rank}  {item['title']}  ({pct}% match)")
