@@ -2264,5 +2264,16 @@
     "mood": "bittersweet",
     "pace": "slow",
     "complexity": "moderate"
-  }
+  },
+  {
+  "title": "Duck Soup",
+  "type": "movie",
+  "author": "Leo McCarey",
+  "genres": ["comedy", "musical"],
+  "themes": ["absurdity", "chaos", "parody", "humor", "war"],
+  "tone": ["comedic", "irreverent"],
+  "mood": "absurdist",
+  "pace": "fast",
+  "complexity": "simple"
+}
 ]
