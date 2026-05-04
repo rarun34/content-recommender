@@ -1,100 +1,413 @@
 [
   {
-    "title": "1984",
-    "type": "book",
-    "author": "George Orwell",
-    "genres": ["dystopian", "science fiction"],
-    "themes": ["surveillance", "freedom", "totalitarianism"],
-    "tone": ["dark", "tense"],
-    "mood": "oppressive",
-    "pace": "moderate",
-    "complexity": "moderate"
-  },
-  {
-    "title": "The Handmaid's Tale",
-    "type": "book",
-    "author": "Margaret Atwood",
-    "genres": ["dystopian", "science fiction"],
-    "themes": ["freedom", "totalitarianism", "gender"],
-    "tone": ["dark", "unsettling"],
-    "mood": "oppressive",
+    "title": "Citizen Kane",
+    "type": "movie",
+    "author": "Orson Welles",
+    "genres": [
+      "drama",
+      "mystery"
+    ],
+    "themes": [
+      "power",
+      "wealth",
+      "identity",
+      "illusion",
+      "memory"
+    ],
+    "tone": [
+      "melancholic",
+      "cerebral"
+    ],
+    "mood": "bittersweet",
     "pace": "slow",
-    "complexity": "moderate"
+    "complexity": "complex"
   },
   {
-    "title": "The Great Gatsby",
-    "type": "book",
-    "author": "F. Scott Fitzgerald",
-    "genres": ["literary fiction", "classic"],
-    "themes": ["wealth", "love", "American dream"],
-    "tone": ["melancholic", "elegant"],
+    "title": "Casablanca",
+    "type": "movie",
+    "author": "Michael Curtiz",
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "themes": [
+      "love",
+      "sacrifice",
+      "freedom",
+      "war",
+      "identity"
+    ],
+    "tone": [
+      "melancholic",
+      "romantic"
+    ],
     "mood": "bittersweet",
     "pace": "moderate",
     "complexity": "moderate"
   },
   {
-    "title": "To Kill a Mockingbird",
-    "type": "book",
-    "author": "Harper Lee",
-    "genres": ["literary fiction", "classic"],
-    "themes": ["justice", "racism", "innocence"],
-    "tone": ["warm", "earnest"],
-    "mood": "hopeful",
-    "pace": "slow",
-    "complexity": "easy"
-  },
-  {
-    "title": "Brave New World",
-    "type": "book",
-    "author": "Aldous Huxley",
-    "genres": ["dystopian", "science fiction"],
-    "themes": ["freedom", "conformity", "technology"],
-    "tone": ["satirical", "unsettling"],
-    "mood": "disturbing",
-    "pace": "moderate",
-    "complexity": "moderate"
-  },
-  {
-    "title": "The Hobbit",
-    "type": "book",
-    "author": "J.R.R. Tolkien",
-    "genres": ["fantasy", "adventure"],
-    "themes": ["courage", "friendship", "home"],
-    "tone": ["warm", "whimsical"],
-    "mood": "charming",
-    "pace": "moderate",
-    "complexity": "easy"
-  },
-  {
-    "title": "Gone Girl",
-    "type": "book",
-    "author": "Gillian Flynn",
-    "genres": ["thriller", "mystery"],
-    "themes": ["deception", "marriage", "identity"],
-    "tone": ["dark", "suspenseful"],
-    "mood": "unsettling",
-    "pace": "fast",
-    "complexity": "moderate"
-  },
-  {
-    "title": "Dune",
-    "type": "book",
-    "author": "Frank Herbert",
-    "genres": ["science fiction", "adventure"],
-    "themes": ["power", "ecology", "destiny"],
-    "tone": ["epic", "philosophical"],
-    "mood": "grand",
+    "title": "The Godfather",
+    "type": "movie",
+    "author": "Francis Ford Coppola",
+    "genres": [
+      "drama",
+      "crime"
+    ],
+    "themes": [
+      "power",
+      "family",
+      "loyalty",
+      "corruption",
+      "identity"
+    ],
+    "tone": [
+      "dark",
+      "intense"
+    ],
+    "mood": "oppressive",
     "pace": "slow",
     "complexity": "complex"
   },
   {
-    "title": "Pride and Prejudice",
-    "type": "book",
-    "author": "Jane Austen",
-    "genres": ["romance", "classic"],
-    "themes": ["love", "class", "personal growth"],
-    "tone": ["witty", "warm"],
-    "mood": "charming",
+    "title": "Gone with the Wind",
+    "type": "movie",
+    "author": "Victor Fleming",
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "themes": [
+      "survival",
+      "love",
+      "war",
+      "identity",
+      "class"
+    ],
+    "tone": [
+      "epic",
+      "romantic"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Lawrence of Arabia",
+    "type": "movie",
+    "author": "David Lean",
+    "genres": [
+      "drama",
+      "adventure"
+    ],
+    "themes": [
+      "identity",
+      "war",
+      "power",
+      "freedom",
+      "obsession"
+    ],
+    "tone": [
+      "epic",
+      "philosophical"
+    ],
+    "mood": "awe-inspiring",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Wizard of Oz",
+    "type": "movie",
+    "author": "Victor Fleming",
+    "genres": [
+      "fantasy",
+      "adventure"
+    ],
+    "themes": [
+      "identity",
+      "home",
+      "courage",
+      "illusion",
+      "friendship"
+    ],
+    "tone": [
+      "whimsical",
+      "hopeful"
+    ],
+    "mood": "uplifting",
+    "pace": "moderate",
+    "complexity": "simple"
+  },
+  {
+    "title": "Schindler's List",
+    "type": "movie",
+    "author": "Steven Spielberg",
+    "genres": [
+      "drama",
+      "history"
+    ],
+    "themes": [
+      "survival",
+      "morality",
+      "war",
+      "power",
+      "sacrifice"
+    ],
+    "tone": [
+      "dark",
+      "emotional"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Raging Bull",
+    "type": "movie",
+    "author": "Martin Scorsese",
+    "genres": [
+      "drama",
+      "sports"
+    ],
+    "themes": [
+      "obsession",
+      "identity",
+      "self-destruction",
+      "love",
+      "violence"
+    ],
+    "tone": [
+      "intense",
+      "raw"
+    ],
+    "mood": "unsettling",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "type": "movie",
+    "author": "Milos Forman",
+    "genres": [
+      "drama"
+    ],
+    "themes": [
+      "freedom",
+      "power",
+      "identity",
+      "rebellion",
+      "totalitarianism"
+    ],
+    "tone": [
+      "dark",
+      "intense"
+    ],
+    "mood": "oppressive",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Sunset Boulevard",
+    "type": "movie",
+    "author": "Billy Wilder",
+    "genres": [
+      "drama",
+      "noir"
+    ],
+    "themes": [
+      "illusion",
+      "obsession",
+      "identity",
+      "ambition",
+      "mortality"
+    ],
+    "tone": [
+      "dark",
+      "cynical"
+    ],
+    "mood": "unsettling",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Vertigo",
+    "type": "movie",
+    "author": "Alfred Hitchcock",
+    "genres": [
+      "thriller",
+      "mystery"
+    ],
+    "themes": [
+      "obsession",
+      "identity",
+      "illusion",
+      "love",
+      "mortality"
+    ],
+    "tone": [
+      "dark",
+      "psychological"
+    ],
+    "mood": "unsettling",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "type": "movie",
+    "author": "Stanley Kubrick",
+    "genres": [
+      "science fiction"
+    ],
+    "themes": [
+      "identity",
+      "reality",
+      "evolution",
+      "surveillance",
+      "mortality"
+    ],
+    "tone": [
+      "cerebral",
+      "philosophical"
+    ],
+    "mood": "mind-bending",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Psycho",
+    "type": "movie",
+    "author": "Alfred Hitchcock",
+    "genres": [
+      "horror",
+      "thriller"
+    ],
+    "themes": [
+      "identity",
+      "obsession",
+      "deception",
+      "mortality",
+      "guilt"
+    ],
+    "tone": [
+      "dark",
+      "tense"
+    ],
+    "mood": "unsettling",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Chinatown",
+    "type": "movie",
+    "author": "Roman Polanski",
+    "genres": [
+      "noir",
+      "mystery"
+    ],
+    "themes": [
+      "corruption",
+      "power",
+      "deception",
+      "identity",
+      "morality"
+    ],
+    "tone": [
+      "dark",
+      "cynical"
+    ],
+    "mood": "oppressive",
+    "pace": "moderate",
+    "complexity": "complex"
+  },
+  {
+    "title": "Apocalypse Now",
+    "type": "movie",
+    "author": "Francis Ford Coppola",
+    "genres": [
+      "drama",
+      "war"
+    ],
+    "themes": [
+      "war",
+      "identity",
+      "morality",
+      "obsession",
+      "power"
+    ],
+    "tone": [
+      "dark",
+      "philosophical"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "type": "movie",
+    "author": "Jonathan Demme",
+    "genres": [
+      "thriller",
+      "horror"
+    ],
+    "themes": [
+      "identity",
+      "obsession",
+      "power",
+      "morality",
+      "deception"
+    ],
+    "tone": [
+      "dark",
+      "tense"
+    ],
+    "mood": "unsettling",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Taxi Driver",
+    "type": "movie",
+    "author": "Martin Scorsese",
+    "genres": [
+      "drama",
+      "thriller"
+    ],
+    "themes": [
+      "identity",
+      "isolation",
+      "obsession",
+      "morality",
+      "violence"
+    ],
+    "tone": [
+      "dark",
+      "psychological"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Rear Window",
+    "type": "movie",
+    "author": "Alfred Hitchcock",
+    "genres": [
+      "thriller",
+      "mystery"
+    ],
+    "themes": [
+      "surveillance",
+      "identity",
+      "obsession",
+      "reality",
+      "deception"
+    ],
+    "tone": [
+      "tense",
+      "cerebral"
+    ],
+    "mood": "unsettling",
     "pace": "moderate",
     "complexity": "moderate"
   },
@@ -102,9 +415,20 @@
     "title": "Inception",
     "type": "movie",
     "author": "Christopher Nolan",
-    "genres": ["science fiction", "thriller"],
-    "themes": ["dreams", "reality", "guilt"],
-    "tone": ["cerebral", "intense"],
+    "genres": [
+      "science fiction",
+      "thriller"
+    ],
+    "themes": [
+      "dreams",
+      "reality",
+      "guilt",
+      "identity"
+    ],
+    "tone": [
+      "cerebral",
+      "intense"
+    ],
     "mood": "mind-bending",
     "pace": "fast",
     "complexity": "complex"
@@ -113,9 +437,20 @@
     "title": "Parasite",
     "type": "movie",
     "author": "Bong Joon-ho",
-    "genres": ["thriller", "drama"],
-    "themes": ["class", "wealth", "deception"],
-    "tone": ["dark", "tense"],
+    "genres": [
+      "thriller",
+      "drama"
+    ],
+    "themes": [
+      "class",
+      "wealth",
+      "deception",
+      "survival"
+    ],
+    "tone": [
+      "dark",
+      "tense"
+    ],
     "mood": "unsettling",
     "pace": "moderate",
     "complexity": "moderate"
@@ -124,77 +459,1810 @@
     "title": "The Matrix",
     "type": "movie",
     "author": "The Wachowskis",
-    "genres": ["science fiction", "action"],
-    "themes": ["reality", "freedom", "identity"],
-    "tone": ["intense", "philosophical"],
+    "genres": [
+      "science fiction",
+      "action"
+    ],
+    "themes": [
+      "reality",
+      "freedom",
+      "identity",
+      "surveillance"
+    ],
+    "tone": [
+      "intense",
+      "philosophical"
+    ],
     "mood": "mind-bending",
     "pace": "fast",
     "complexity": "moderate"
   },
   {
-    "title": "Spirited Away",
+    "title": "Get Out",
     "type": "movie",
-    "author": "Hayao Miyazaki",
-    "genres": ["fantasy", "animation"],
-    "themes": ["courage", "identity", "growing up"],
-    "tone": ["whimsical", "mystical"],
-    "mood": "enchanting",
+    "author": "Jordan Peele",
+    "genres": [
+      "horror",
+      "thriller"
+    ],
+    "themes": [
+      "race",
+      "identity",
+      "deception",
+      "surveillance"
+    ],
+    "tone": [
+      "tense",
+      "unsettling"
+    ],
+    "mood": "unsettling",
     "pace": "moderate",
-    "complexity": "easy"
+    "complexity": "moderate"
   },
   {
     "title": "Interstellar",
     "type": "movie",
     "author": "Christopher Nolan",
-    "genres": ["science fiction", "drama"],
-    "themes": ["love", "survival", "time"],
-    "tone": ["epic", "emotional"],
+    "genres": [
+      "science fiction",
+      "drama"
+    ],
+    "themes": [
+      "love",
+      "survival",
+      "identity",
+      "reality"
+    ],
+    "tone": [
+      "cerebral",
+      "emotional"
+    ],
     "mood": "awe-inspiring",
-    "pace": "moderate",
+    "pace": "slow",
     "complexity": "complex"
   },
   {
-    "title": "Get Out",
+    "title": "Her",
     "type": "movie",
-    "author": "Jordan Peele",
-    "genres": ["horror", "thriller"],
-    "themes": ["racism", "identity", "deception"],
-    "tone": ["tense", "satirical"],
-    "mood": "disturbing",
+    "author": "Spike Jonze",
+    "genres": [
+      "science fiction",
+      "drama"
+    ],
+    "themes": [
+      "love",
+      "identity",
+      "reality",
+      "loneliness"
+    ],
+    "tone": [
+      "melancholic",
+      "philosophical"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Annihilation",
+    "type": "movie",
+    "author": "Alex Garland",
+    "genres": [
+      "science fiction",
+      "horror"
+    ],
+    "themes": [
+      "identity",
+      "reality",
+      "survival",
+      "mortality"
+    ],
+    "tone": [
+      "cerebral",
+      "unsettling"
+    ],
+    "mood": "mind-bending",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Truman Show",
+    "type": "movie",
+    "author": "Peter Weir",
+    "genres": [
+      "drama",
+      "science fiction"
+    ],
+    "themes": [
+      "surveillance",
+      "freedom",
+      "reality",
+      "identity"
+    ],
+    "tone": [
+      "philosophical",
+      "unsettling"
+    ],
+    "mood": "mind-bending",
     "pace": "moderate",
     "complexity": "moderate"
   },
   {
-    "title": "The Shawshank Redemption",
+    "title": "Eternal Sunshine of the Spotless Mind",
     "type": "movie",
-    "author": "Frank Darabont",
-    "genres": ["drama", "classic"],
-    "themes": ["hope", "freedom", "friendship"],
-    "tone": ["warm", "inspiring"],
-    "mood": "hopeful",
-    "pace": "slow",
-    "complexity": "easy"
+    "author": "Michel Gondry",
+    "genres": [
+      "drama",
+      "science fiction"
+    ],
+    "themes": [
+      "love",
+      "memory",
+      "identity",
+      "reality"
+    ],
+    "tone": [
+      "melancholic",
+      "surreal"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "complex"
   },
   {
-    "title": "Everything Everywhere All at Once",
+    "title": "Black Swan",
     "type": "movie",
-    "author": "The Daniels",
-    "genres": ["science fiction", "comedy", "drama"],
-    "themes": ["family", "identity", "love"],
-    "tone": ["chaotic", "emotional"],
-    "mood": "uplifting",
+    "author": "Darren Aronofsky",
+    "genres": [
+      "thriller",
+      "drama"
+    ],
+    "themes": [
+      "obsession",
+      "identity",
+      "ambition",
+      "self-destruction"
+    ],
+    "tone": [
+      "dark",
+      "psychological"
+    ],
+    "mood": "unsettling",
     "pace": "fast",
     "complexity": "complex"
   },
   {
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "title": "Whiplash",
     "type": "movie",
-    "author": "Peter Jackson",
-    "genres": ["fantasy", "adventure"],
-    "themes": ["friendship", "courage", "good vs evil"],
-    "tone": ["epic", "warm"],
-    "mood": "grand",
+    "author": "Damien Chazelle",
+    "genres": [
+      "drama"
+    ],
+    "themes": [
+      "ambition",
+      "obsession",
+      "identity",
+      "power"
+    ],
+    "tone": [
+      "intense",
+      "tense"
+    ],
+    "mood": "unsettling",
+    "pace": "fast",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Social Network",
+    "type": "movie",
+    "author": "David Fincher",
+    "genres": [
+      "drama"
+    ],
+    "themes": [
+      "ambition",
+      "identity",
+      "betrayal",
+      "power",
+      "wealth"
+    ],
+    "tone": [
+      "tense",
+      "cerebral"
+    ],
+    "mood": "unsettling",
+    "pace": "fast",
+    "complexity": "moderate"
+  },
+  {
+    "title": "No Country for Old Men",
+    "type": "movie",
+    "author": "Coen Brothers",
+    "genres": [
+      "thriller",
+      "drama"
+    ],
+    "themes": [
+      "morality",
+      "violence",
+      "fate",
+      "power",
+      "identity"
+    ],
+    "tone": [
+      "dark",
+      "philosophical"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "There Will Be Blood",
+    "type": "movie",
+    "author": "Paul Thomas Anderson",
+    "genres": [
+      "drama"
+    ],
+    "themes": [
+      "obsession",
+      "power",
+      "greed",
+      "identity",
+      "corruption"
+    ],
+    "tone": [
+      "intense",
+      "dark"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Moonlight",
+    "type": "movie",
+    "author": "Barry Jenkins",
+    "genres": [
+      "drama"
+    ],
+    "themes": [
+      "identity",
+      "love",
+      "class",
+      "loneliness",
+      "freedom"
+    ],
+    "tone": [
+      "melancholic",
+      "quiet"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Portrait of a Lady on Fire",
+    "type": "movie",
+    "author": "Celine Sciamma",
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "themes": [
+      "love",
+      "identity",
+      "freedom",
+      "art",
+      "memory"
+    ],
+    "tone": [
+      "melancholic",
+      "romantic"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Good Will Hunting",
+    "type": "movie",
+    "author": "Gus Van Sant",
+    "genres": [
+      "drama"
+    ],
+    "themes": [
+      "identity",
+      "love",
+      "class",
+      "ambition",
+      "freedom"
+    ],
+    "tone": [
+      "emotional",
+      "hopeful"
+    ],
+    "mood": "uplifting",
     "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Children of Men",
+    "type": "movie",
+    "author": "Alfonso Cuaron",
+    "genres": [
+      "science fiction",
+      "thriller"
+    ],
+    "themes": [
+      "survival",
+      "hope",
+      "freedom",
+      "war",
+      "mortality"
+    ],
+    "tone": [
+      "dark",
+      "intense"
+    ],
+    "mood": "oppressive",
+    "pace": "fast",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Ex Machina",
+    "type": "movie",
+    "author": "Alex Garland",
+    "genres": [
+      "science fiction",
+      "thriller"
+    ],
+    "themes": [
+      "identity",
+      "power",
+      "deception",
+      "reality",
+      "freedom"
+    ],
+    "tone": [
+      "cerebral",
+      "tense"
+    ],
+    "mood": "unsettling",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "type": "movie",
+    "author": "Darren Aronofsky",
+    "genres": [
+      "drama"
+    ],
+    "themes": [
+      "obsession",
+      "identity",
+      "self-destruction",
+      "illusion",
+      "survival"
+    ],
+    "tone": [
+      "dark",
+      "intense"
+    ],
+    "mood": "oppressive",
+    "pace": "fast",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Inside Llewyn Davis",
+    "type": "movie",
+    "author": "Coen Brothers",
+    "genres": [
+      "drama"
+    ],
+    "themes": [
+      "identity",
+      "ambition",
+      "loneliness",
+      "art",
+      "failure"
+    ],
+    "tone": [
+      "melancholic",
+      "quiet"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Lighthouse",
+    "type": "movie",
+    "author": "Robert Eggers",
+    "genres": [
+      "horror",
+      "drama"
+    ],
+    "themes": [
+      "isolation",
+      "obsession",
+      "identity",
+      "power",
+      "mortality"
+    ],
+    "tone": [
+      "dark",
+      "psychological"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Moon",
+    "type": "movie",
+    "author": "Duncan Jones",
+    "genres": [
+      "science fiction"
+    ],
+    "themes": [
+      "identity",
+      "isolation",
+      "memory",
+      "mortality",
+      "reality"
+    ],
+    "tone": [
+      "melancholic",
+      "cerebral"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Network",
+    "type": "movie",
+    "author": "Sidney Lumet",
+    "genres": [
+      "drama",
+      "satire"
+    ],
+    "themes": [
+      "power",
+      "identity",
+      "illusion",
+      "corruption",
+      "surveillance"
+    ],
+    "tone": [
+      "satirical",
+      "intense"
+    ],
+    "mood": "unsettling",
+    "pace": "fast",
+    "complexity": "complex"
+  },
+  {
+    "title": "A Beautiful Mind",
+    "type": "movie",
+    "author": "Ron Howard",
+    "genres": [
+      "drama",
+      "biography"
+    ],
+    "themes": [
+      "identity",
+      "obsession",
+      "love",
+      "reality",
+      "genius"
+    ],
+    "tone": [
+      "emotional",
+      "cerebral"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Black Mirror: Nosedive",
+    "type": "movie",
+    "author": "Joe Wright",
+    "genres": [
+      "dystopian",
+      "science fiction"
+    ],
+    "themes": [
+      "surveillance",
+      "class",
+      "identity",
+      "totalitarianism"
+    ],
+    "tone": [
+      "dark",
+      "satirical"
+    ],
+    "mood": "unsettling",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "1984",
+    "type": "book",
+    "author": "George Orwell",
+    "genres": [
+      "dystopian",
+      "science fiction"
+    ],
+    "themes": [
+      "surveillance",
+      "freedom",
+      "totalitarianism",
+      "identity"
+    ],
+    "tone": [
+      "dark",
+      "tense"
+    ],
+    "mood": "oppressive",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "type": "book",
+    "author": "Margaret Atwood",
+    "genres": [
+      "dystopian",
+      "science fiction"
+    ],
+    "themes": [
+      "freedom",
+      "totalitarianism",
+      "gender",
+      "survival"
+    ],
+    "tone": [
+      "dark",
+      "unsettling"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Great Gatsby",
+    "type": "book",
+    "author": "F. Scott Fitzgerald",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "wealth",
+      "love",
+      "illusion",
+      "identity",
+      "class"
+    ],
+    "tone": [
+      "melancholic",
+      "elegant"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "type": "book",
+    "author": "Harper Lee",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "morality",
+      "identity",
+      "class",
+      "freedom",
+      "innocence"
+    ],
+    "tone": [
+      "melancholic",
+      "hopeful"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Brave New World",
+    "type": "book",
+    "author": "Aldous Huxley",
+    "genres": [
+      "dystopian",
+      "science fiction"
+    ],
+    "themes": [
+      "freedom",
+      "totalitarianism",
+      "identity",
+      "surveillance"
+    ],
+    "tone": [
+      "dark",
+      "philosophical"
+    ],
+    "mood": "oppressive",
+    "pace": "moderate",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "type": "book",
+    "author": "J.D. Salinger",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "illusion",
+      "loneliness",
+      "innocence",
+      "freedom"
+    ],
+    "tone": [
+      "cynical",
+      "melancholic"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "simple"
+  },
+  {
+    "title": "Lord of the Flies",
+    "type": "book",
+    "author": "William Golding",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "power",
+      "morality",
+      "survival",
+      "violence"
+    ],
+    "tone": [
+      "dark",
+      "philosophical"
+    ],
+    "mood": "oppressive",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "type": "book",
+    "author": "John Steinbeck",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "survival",
+      "class",
+      "family",
+      "freedom",
+      "hope"
+    ],
+    "tone": [
+      "melancholic",
+      "raw"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Beloved",
+    "type": "book",
+    "author": "Toni Morrison",
+    "genres": [
+      "literary fiction",
+      "historical fiction"
+    ],
+    "themes": [
+      "memory",
+      "freedom",
+      "identity",
+      "guilt",
+      "survival"
+    ],
+    "tone": [
+      "dark",
+      "emotional"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Invisible Man",
+    "type": "book",
+    "author": "Ralph Ellison",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "race",
+      "freedom",
+      "illusion",
+      "power"
+    ],
+    "tone": [
+      "dark",
+      "philosophical"
+    ],
+    "mood": "oppressive",
+    "pace": "moderate",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Sound and the Fury",
+    "type": "book",
+    "author": "William Faulkner",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "memory",
+      "identity",
+      "family",
+      "mortality",
+      "illusion"
+    ],
+    "tone": [
+      "melancholic",
+      "cerebral"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Their Eyes Were Watching God",
+    "type": "book",
+    "author": "Zora Neale Hurston",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "love",
+      "freedom",
+      "class",
+      "self-discovery"
+    ],
+    "tone": [
+      "hopeful",
+      "melancholic"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Lolita",
+    "type": "book",
+    "author": "Vladimir Nabokov",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "obsession",
+      "identity",
+      "illusion",
+      "morality",
+      "deception"
+    ],
+    "tone": [
+      "dark",
+      "cerebral"
+    ],
+    "mood": "unsettling",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Road",
+    "type": "book",
+    "author": "Cormac McCarthy",
+    "genres": [
+      "literary fiction",
+      "dystopian"
+    ],
+    "themes": [
+      "survival",
+      "love",
+      "mortality",
+      "hope",
+      "family"
+    ],
+    "tone": [
+      "dark",
+      "sparse"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Never Let Me Go",
+    "type": "book",
+    "author": "Kazuo Ishiguro",
+    "genres": [
+      "literary fiction",
+      "science fiction"
+    ],
+    "themes": [
+      "identity",
+      "mortality",
+      "love",
+      "freedom",
+      "memory"
+    ],
+    "tone": [
+      "melancholic",
+      "quiet"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Station Eleven",
+    "type": "book",
+    "author": "Emily St. John Mandel",
+    "genres": [
+      "literary fiction",
+      "dystopian"
+    ],
+    "themes": [
+      "survival",
+      "art",
+      "memory",
+      "identity",
+      "hope"
+    ],
+    "tone": [
+      "melancholic",
+      "hopeful"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Fahrenheit 451",
+    "type": "book",
+    "author": "Ray Bradbury",
+    "genres": [
+      "dystopian",
+      "science fiction"
+    ],
+    "themes": [
+      "freedom",
+      "surveillance",
+      "totalitarianism",
+      "art"
+    ],
+    "tone": [
+      "dark",
+      "philosophical"
+    ],
+    "mood": "oppressive",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Flowers for Algernon",
+    "type": "book",
+    "author": "Daniel Keyes",
+    "genres": [
+      "science fiction",
+      "literary fiction"
+    ],
+    "themes": [
+      "identity",
+      "mortality",
+      "love",
+      "loneliness",
+      "ambition"
+    ],
+    "tone": [
+      "melancholic",
+      "emotional"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Remains of the Day",
+    "type": "book",
+    "author": "Kazuo Ishiguro",
+    "genres": [
+      "literary fiction"
+    ],
+    "themes": [
+      "identity",
+      "love",
+      "illusion",
+      "memory",
+      "regret"
+    ],
+    "tone": [
+      "melancholic",
+      "restrained"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Crime and Punishment",
+    "type": "book",
+    "author": "Fyodor Dostoevsky",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "morality",
+      "guilt",
+      "identity",
+      "obsession",
+      "freedom"
+    ],
+    "tone": [
+      "dark",
+      "intense"
+    ],
+    "mood": "oppressive",
+    "pace": "moderate",
+    "complexity": "complex"
+  },
+  {
+    "title": "Anna Karenina",
+    "type": "book",
+    "author": "Leo Tolstoy",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "love",
+      "identity",
+      "class",
+      "freedom",
+      "morality"
+    ],
+    "tone": [
+      "melancholic",
+      "elegant"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Mrs Dalloway",
+    "type": "book",
+    "author": "Virginia Woolf",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "memory",
+      "mortality",
+      "love",
+      "freedom"
+    ],
+    "tone": [
+      "melancholic",
+      "cerebral"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "type": "book",
+    "author": "Kurt Vonnegut",
+    "genres": [
+      "science fiction",
+      "literary fiction"
+    ],
+    "themes": [
+      "war",
+      "mortality",
+      "identity",
+      "memory",
+      "freedom"
+    ],
+    "tone": [
+      "dark",
+      "satirical"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Sun Also Rises",
+    "type": "book",
+    "author": "Ernest Hemingway",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "love",
+      "loneliness",
+      "war",
+      "illusion"
+    ],
+    "tone": [
+      "melancholic",
+      "sparse"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Catch-22",
+    "type": "book",
+    "author": "Joseph Heller",
+    "genres": [
+      "literary fiction",
+      "satire"
+    ],
+    "themes": [
+      "war",
+      "freedom",
+      "morality",
+      "identity",
+      "power"
+    ],
+    "tone": [
+      "satirical",
+      "dark"
+    ],
+    "mood": "unsettling",
+    "pace": "moderate",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Old Man and the Sea",
+    "type": "book",
+    "author": "Ernest Hemingway",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "obsession",
+      "mortality",
+      "survival",
+      "loneliness"
+    ],
+    "tone": [
+      "melancholic",
+      "sparse"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "simple"
+  },
+  {
+    "title": "On the Road",
+    "type": "book",
+    "author": "Jack Kerouac",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "freedom",
+      "identity",
+      "loneliness",
+      "ambition",
+      "friendship"
+    ],
+    "tone": [
+      "hopeful",
+      "raw"
+    ],
+    "mood": "awe-inspiring",
+    "pace": "fast",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Trial",
+    "type": "book",
+    "author": "Franz Kafka",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "power",
+      "freedom",
+      "morality",
+      "totalitarianism"
+    ],
+    "tone": [
+      "dark",
+      "surreal"
+    ],
+    "mood": "oppressive",
+    "pace": "moderate",
+    "complexity": "complex"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "type": "book",
+    "author": "Gabriel Garcia Marquez",
+    "genres": [
+      "literary fiction",
+      "magical realism"
+    ],
+    "themes": [
+      "memory",
+      "family",
+      "identity",
+      "mortality",
+      "love"
+    ],
+    "tone": [
+      "melancholic",
+      "surreal"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Stranger",
+    "type": "book",
+    "author": "Albert Camus",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "morality",
+      "freedom",
+      "mortality",
+      "isolation"
+    ],
+    "tone": [
+      "philosophical",
+      "detached"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Middlesex",
+    "type": "book",
+    "author": "Jeffrey Eugenides",
+    "genres": [
+      "literary fiction"
+    ],
+    "themes": [
+      "identity",
+      "family",
+      "love",
+      "memory",
+      "class"
+    ],
+    "tone": [
+      "melancholic",
+      "hopeful"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "complex"
+  },
+  {
+    "title": "A Passage to India",
+    "type": "book",
+    "author": "E.M. Forster",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "power",
+      "race",
+      "freedom",
+      "morality"
+    ],
+    "tone": [
+      "melancholic",
+      "philosophical"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Corrections",
+    "type": "book",
+    "author": "Jonathan Franzen",
+    "genres": [
+      "literary fiction"
+    ],
+    "themes": [
+      "family",
+      "identity",
+      "memory",
+      "mortality",
+      "illusion"
+    ],
+    "tone": [
+      "melancholic",
+      "satirical"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Portrait of a Lady",
+    "type": "book",
+    "author": "Henry James",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "freedom",
+      "love",
+      "illusion",
+      "class"
+    ],
+    "tone": [
+      "melancholic",
+      "elegant"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Middlemarch",
+    "type": "book",
+    "author": "George Eliot",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "love",
+      "class",
+      "morality",
+      "ambition"
+    ],
+    "tone": [
+      "melancholic",
+      "philosophical"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Atonement",
+    "type": "book",
+    "author": "Ian McEwan",
+    "genres": [
+      "literary fiction",
+      "historical fiction"
+    ],
+    "themes": [
+      "guilt",
+      "memory",
+      "love",
+      "identity",
+      "morality"
+    ],
+    "tone": [
+      "melancholic",
+      "restrained"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Unbearable Lightness of Being",
+    "type": "book",
+    "author": "Milan Kundera",
+    "genres": [
+      "literary fiction"
+    ],
+    "themes": [
+      "love",
+      "identity",
+      "freedom",
+      "morality",
+      "memory"
+    ],
+    "tone": [
+      "philosophical",
+      "melancholic"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Giovanni's Room",
+    "type": "book",
+    "author": "James Baldwin",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "love",
+      "freedom",
+      "guilt",
+      "loneliness"
+    ],
+    "tone": [
+      "melancholic",
+      "intense"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Stoner",
+    "type": "book",
+    "author": "John Williams",
+    "genres": [
+      "literary fiction"
+    ],
+    "themes": [
+      "identity",
+      "love",
+      "ambition",
+      "mortality",
+      "loneliness"
+    ],
+    "tone": [
+      "melancholic",
+      "quiet"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Secret History",
+    "type": "book",
+    "author": "Donna Tartt",
+    "genres": [
+      "literary fiction",
+      "mystery"
+    ],
+    "themes": [
+      "obsession",
+      "identity",
+      "guilt",
+      "ambition",
+      "deception"
+    ],
+    "tone": [
+      "tense",
+      "dark"
+    ],
+    "mood": "unsettling",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "A Little Life",
+    "type": "book",
+    "author": "Hanya Yanagihara",
+    "genres": [
+      "literary fiction"
+    ],
+    "themes": [
+      "identity",
+      "love",
+      "trauma",
+      "survival",
+      "friendship"
+    ],
+    "tone": [
+      "dark",
+      "emotional"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Mrs Bridge",
+    "type": "book",
+    "author": "Evan S. Connell",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "class",
+      "illusion",
+      "love",
+      "loneliness"
+    ],
+    "tone": [
+      "melancholic",
+      "restrained"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The French Lieutenant's Woman",
+    "type": "book",
+    "author": "John Fowles",
+    "genres": [
+      "literary fiction",
+      "historical fiction"
+    ],
+    "themes": [
+      "identity",
+      "freedom",
+      "love",
+      "illusion",
+      "class"
+    ],
+    "tone": [
+      "melancholic",
+      "philosophical"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "Invisible Cities",
+    "type": "book",
+    "author": "Italo Calvino",
+    "genres": [
+      "literary fiction",
+      "magical realism"
+    ],
+    "themes": [
+      "memory",
+      "identity",
+      "illusion",
+      "mortality",
+      "art"
+    ],
+    "tone": [
+      "philosophical",
+      "surreal"
+    ],
+    "mood": "mind-bending",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "A Room with a View",
+    "type": "book",
+    "author": "E.M. Forster",
+    "genres": [
+      "literary fiction",
+      "classic",
+      "romance"
+    ],
+    "themes": [
+      "identity",
+      "freedom",
+      "love",
+      "class",
+      "illusion"
+    ],
+    "tone": [
+      "hopeful",
+      "romantic"
+    ],
+    "mood": "uplifting",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Singin in the Rain",
+    "type": "movie",
+    "author": "Stanley Donen",
+    "genres": [
+      "musical",
+      "comedy"
+    ],
+    "themes": [
+      "art",
+      "love",
+      "illusion",
+      "ambition",
+      "identity"
+    ],
+    "tone": [
+      "joyful",
+      "lighthearted"
+    ],
+    "mood": "uplifting",
+    "pace": "fast",
+    "complexity": "simple"
+  },
+  {
+    "title": "Some Like It Hot",
+    "type": "movie",
+    "author": "Billy Wilder",
+    "genres": [
+      "comedy"
+    ],
+    "themes": [
+      "identity",
+      "deception",
+      "love",
+      "freedom",
+      "class"
+    ],
+    "tone": [
+      "lighthearted",
+      "satirical"
+    ],
+    "mood": "uplifting",
+    "pace": "fast",
+    "complexity": "simple"
+  },
+  {
+    "title": "It Is a Wonderful Life",
+    "type": "movie",
+    "author": "Frank Capra",
+    "genres": [
+      "drama",
+      "fantasy"
+    ],
+    "themes": [
+      "identity",
+      "hope",
+      "sacrifice",
+      "community",
+      "mortality"
+    ],
+    "tone": [
+      "emotional",
+      "hopeful"
+    ],
+    "mood": "uplifting",
+    "pace": "moderate",
+    "complexity": "simple"
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "type": "movie",
+    "author": "John Ford",
+    "genres": [
+      "drama"
+    ],
+    "themes": [
+      "survival",
+      "class",
+      "family",
+      "freedom",
+      "hope"
+    ],
+    "tone": [
+      "melancholic",
+      "raw"
+    ],
+    "mood": "oppressive",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "E.T. the Extra-Terrestrial",
+    "type": "movie",
+    "author": "Steven Spielberg",
+    "genres": [
+      "science fiction",
+      "adventure"
+    ],
+    "themes": [
+      "friendship",
+      "identity",
+      "love",
+      "freedom",
+      "mortality"
+    ],
+    "tone": [
+      "emotional",
+      "hopeful"
+    ],
+    "mood": "uplifting",
+    "pace": "moderate",
+    "complexity": "simple"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "type": "movie",
+    "author": "Robert Mulligan",
+    "genres": [
+      "drama"
+    ],
+    "themes": [
+      "morality",
+      "identity",
+      "class",
+      "freedom",
+      "innocence"
+    ],
+    "tone": [
+      "melancholic",
+      "hopeful"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Color Purple",
+    "type": "book",
+    "author": "Alice Walker",
+    "genres": [
+      "literary fiction",
+      "historical fiction"
+    ],
+    "themes": [
+      "identity",
+      "freedom",
+      "love",
+      "survival",
+      "family"
+    ],
+    "tone": [
+      "emotional",
+      "hopeful"
+    ],
+    "mood": "bittersweet",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "Things Fall Apart",
+    "type": "book",
+    "author": "Chinua Achebe",
+    "genres": [
+      "literary fiction",
+      "historical fiction"
+    ],
+    "themes": [
+      "identity",
+      "power",
+      "family",
+      "morality",
+      "freedom"
+    ],
+    "tone": [
+      "melancholic",
+      "philosophical"
+    ],
+    "mood": "oppressive",
+    "pace": "moderate",
+    "complexity": "moderate"
+  },
+  {
+    "title": "The Master and Margarita",
+    "type": "book",
+    "author": "Mikhail Bulgakov",
+    "genres": [
+      "literary fiction",
+      "magical realism"
+    ],
+    "themes": [
+      "power",
+      "freedom",
+      "identity",
+      "morality",
+      "illusion"
+    ],
+    "tone": [
+      "dark",
+      "satirical"
+    ],
+    "mood": "mind-bending",
+    "pace": "moderate",
+    "complexity": "complex"
+  },
+  {
+    "title": "Herzog",
+    "type": "book",
+    "author": "Saul Bellow",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "identity",
+      "love",
+      "obsession",
+      "mortality",
+      "illusion"
+    ],
+    "tone": [
+      "cerebral",
+      "melancholic"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
+    "complexity": "complex"
+  },
+  {
+    "title": "The Go-Between",
+    "type": "book",
+    "author": "L.P. Hartley",
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "themes": [
+      "memory",
+      "identity",
+      "class",
+      "love",
+      "innocence"
+    ],
+    "tone": [
+      "melancholic",
+      "restrained"
+    ],
+    "mood": "bittersweet",
+    "pace": "slow",
     "complexity": "moderate"
   }
 ]
