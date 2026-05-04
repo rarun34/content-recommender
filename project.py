@@ -130,6 +130,7 @@ def handle_search(query, database, liked):
         return
 
     if not choice.isdigit():
+        print("  Pleae enter a number.\n")
         return
 
     idx = int(choice) - 1
