@@ -33,3 +33,7 @@ pytest test_project.py -v
   similarity math, search, recommendations, and feature vectors.
 - requirements.txt: Python package dependencies.
 
+## Data Sources
+
+Movie entries sourced from the AFI 100 Greatest American Films list (https://www.afi.com/afis-100-years-100-movies/) with some additional contemporary films selected to improve thematic diversity. Book entries sourced from TIME Magazine's 100 Best Novels list (https://time.com/collection/100-best-novels/) with additional titles from the Modern Library 100 Best Novels list (https://www.modernlibrary.com/top-100/novels/). All theme, tone, pace, and complexity tags were manually assigned by the author based on each work's narrative characteristics.
+
