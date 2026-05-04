@@ -32,6 +32,9 @@ def main():
         LOW_SCORE_THRESHOLD = 0.15
         best_score = results[0][1]
         if best_score < LOW_SCORE_THRESHOLD:
+            print("No close matches found for your selection.")
+            print("The items you picked may be too different from the rest of the catalog.")
+            print("Try selecting different items or add more to data.json\n")
         for rank, (item, score) in enumerate(results, 1):
             pct = round(score * 100)
             print(f"\n  #{rank}  {item['title']}  ({pct}% match)")
