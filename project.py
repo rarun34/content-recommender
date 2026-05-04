@@ -29,7 +29,7 @@ def main():
     if not results:
         print("  No recommendations found.")
     else:
-        LOW_SCORE_THRESHOLD = 0.15
+        LOW_SCORE_THRESHOLD = 0.4
         best_score = results[0][1]
         if best_score < LOW_SCORE_THRESHOLD:
             print("  No close matches found for your selection.")
